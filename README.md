@@ -130,6 +130,7 @@ cd email-spam-detector
 pip install -r requirements.txt
 python app.py
 
+```
 ---
 
 ## Tech Stack
