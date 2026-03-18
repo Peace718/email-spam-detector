@@ -17,7 +17,8 @@ An end-to-end machine learning application that classifies emails as **Spam** or
 - [Web App Deployment](#web-app-deployment)
 - [Application Preview](#application-preview)
 - [Accessing the Application](#accessing-the-application)
-- [Tools & Technologies](#tools--technologies)
+- [Tech Stack](#tech-stack)
+- [Key Takeaway](#key-takeaway)
 
 ---
 
@@ -73,7 +74,7 @@ The dataset is slightly imbalanced, with more non-spam emails than spam, which w
 
 ---
 
-## 📈 Model Evaluation
+## Model Evaluation
 
 - The model was evaluated using: Accuracy, Precision, Recall, F1-score and Confusion Matrix
 - Achieved **98% accuracy with strong precision and recall**, ensuring reliable spam detection performance  
@@ -99,16 +100,16 @@ The trained model was deployed using **Flask** to create an interactive web appl
 
 ## Application Preview
 
-### 🔹 Home Page
+### Home Page
 ![Home Page](assets/homepage.png)
 
-### 🔹 Input Example
+### Input Example
 ![Input Example](assets/input_example.png)
 
-### 🔹 Prediction Result
+### Prediction Result
 ![Prediction Result](assets/result.png)
 
-### 🔹 Confusion Matrix
+### Confusion Matrix
 ![Confusion Matrix](assets/confusion_matrix.png)
 
 ### Classification Report
