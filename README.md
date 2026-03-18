@@ -81,6 +81,12 @@ The dataset is slightly imbalanced, with more non-spam emails than spam, which w
 - High recall (~94%) for spam detection  
 - Minimal false positives and false negatives  
 
+### Confusion Matrix
+![Confusion Matrix](assets/confusion_matrix.png)
+
+### Classification Report
+![Classification Report](assets/classification_report.png)
+
 ---
 
 ## Web App Deployment
@@ -108,12 +114,6 @@ The trained model was deployed using **Flask** to create an interactive web appl
 
 ### Prediction Result
 ![Prediction Result](assets/result.png)
-
-### Confusion Matrix
-![Confusion Matrix](assets/confusion_matrix.png)
-
-### Classification Report
-![Classification Report](assets/classification_report.png)
 
 ---
 
