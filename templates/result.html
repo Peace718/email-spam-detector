@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=1">
+</head>
+<body>
+    <div class="container">
+        <!-- Logo -->
+        <img src="{{ url_for('static', filename='logo.png') }}" alt="App Logo" width="150">
+
+        <!-- App Title -->
+        <h1>Email Spam Detector</h1>
+
+        <h2>Prediction Result</h2>
+        <p>This email is classified as: <strong>{{ prediction }}</strong></p>
+        <p>Confidence: <strong>{{ confidence }}%</strong></p>
+
+        <!-- Download Button -->
+        <form action="/download" method="post">
+            <input type="hidden" name="email" value="{{ email }}">
+            <input type="hidden" name="prediction" value="{{ prediction }}">
+            <input type="hidden" name="confidence" value="{{ confidence }}">
+            <button type="submit">Download Result</button>
+        </form>
+
+        <br>
+        <a href="/">Try another email</a>
+    </div>
+</body>
+</html>
+
+
+
+
