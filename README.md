@@ -129,3 +129,21 @@ cd email-spam-detector
 pip install -r requirements.txt
 python app.py
 
+---
+
+## Tech Stack
+
+- **Programming:** Python  
+- **Machine Learning:** scikit-learn, TF-IDF, Multinomial Naive Bayes  
+- **Data Processing:** pandas, numpy  
+- **Visualization:** matplotlib, seaborn  
+- **Web Framework:** Flask  
+- **Deployment:** Render  
+- **Model Persistence:** joblib  
+
+---
+
+## Key Takeaway
+
+This project demonstrates the ability to build, evaluate, and deploy a machine learning model into a real-world application. It highlights how NLP-based classification systems can be integrated into user-friendly web interfaces to support automated decision-making in real time.
+
